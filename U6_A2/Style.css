@@ -1,0 +1,71 @@
+body {
+    font-family: Arial;
+}
+
+.top-bar {
+    background: #4f6f8f;
+    padding: 15px;
+}
+
+.logo-box {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.nav-buttons {
+    float: right;
+}
+
+.nav-buttons a {
+    border: 1px solid black;
+    padding: 8px 15px;
+    background: #ddd;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+
+.banner {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 60px;
+    text-align: center;
+}
+
+.welcome {
+    margin: 20px;
+}
+
+.products {
+    margin: 20px;
+}
+
+.product-row {
+    margin-top: 10px;
+}
+
+.product {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 40px;
+    margin-right: 10px;
+}
+
+footer {
+    border: 1px solid black;
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:#f4f4f4;
+    padding:15px;
+}
+.logo-box img[src$=".png"] {
+    width:100px;
+    height:100px;    
+}
