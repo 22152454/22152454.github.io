@@ -69,3 +69,8 @@ nav{
     width:100px;
     height:100px;    
 }
+.banner img{
+    width:100%;
+    height300px;
+    object-fit:contain;
+}
